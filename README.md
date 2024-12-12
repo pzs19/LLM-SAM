@@ -1,4 +1,4 @@
-# SocialLLM
+# LLM-SAM
 
 Official repository for **The LLM-Empowered Social Agent Modeling (LLM-SAM) Framework: Simulating the Coevolution of Opinions and Actions**
 
