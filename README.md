@@ -20,19 +20,19 @@ pip install vllm
 
 ```bash
 # including LLaMA, Qwen and GPT-4o-mini
-bash run_social_agent.sh
+bash scripts/run_social_agent.sh
 ```
 
 #### Applications to Larger Networks
 
 ```bash
 # including LLaMA, Qwen and GPT-4o-mini
-bash run_large_network.sh
+bash scripts/run_large_network.sh
 ```
 
 #### Applications to Dynamic Network
 
 ```bash
 # including LLaMA, Qwen and GPT-4o-mini
-bash run_dynamic_network.sh
+bash scripts/run_dynamic_network.sh
 ```
