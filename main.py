@@ -66,7 +66,6 @@ def main(args):
                         ensure_ascii=False
                     )
                     results.append(opinion_history)
-                    break
 
                 all_results[f"exp={exp_id},n={n_node},person={st_person_id}-{st_person_id+n_node}"] = results
                 json.dump(
@@ -75,7 +74,6 @@ def main(args):
                     indent=4, 
                     ensure_ascii=False
                 )
-                break
 
         json.dump(all_results, open(os.path.join(exp_save_dir, f"result_all.jsonl"), "w", encoding="utf-8"), indent=4, ensure_ascii=False)
 
